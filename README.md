@@ -90,19 +90,19 @@ Due to Binance testnet access restrictions (KYC requirement),
 actual API calls could not be performed.
 
 Instead, "mock responses" are used to simulate:
--Order placement
--Execution status
--API responses
+Order placement
+Execution status
+API responses
 
 The architecture is designed such that replacing mock logic  
 with real API integration is straightforward.
 
 # Design Decisions:
 
--Modular design separating CLI and business logic
--Logging implemented for observability
--Validation ensures safe execution
--Mock layer used to bypass external dependency constraints
+Modular design separating CLI and business logic
+Logging implemented for observability
+Validation ensures safe execution
+Mock layer used to bypass external dependency constraints
 
 
 #Requirements:
