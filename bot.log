@@ -1,0 +1,4 @@
+2026-03-28 16:32:55,221 - INFO - [MOCK] MARKET order: BTCUSDT BUY 0.001
+2026-03-28 16:32:55,222 - INFO - Response: {'orderId': 40331, 'status': 'FILLED', 'executedQty': '0.001', 'avgPrice': '65000'}
+2026-03-28 16:33:10,095 - INFO - [MOCK] LIMIT order: BTCUSDT BUY 0.001 @ 30000.0
+2026-03-28 16:33:10,095 - INFO - Response: {'orderId': 38540, 'status': 'NEW', 'executedQty': '0', 'avgPrice': '0'}
